@@ -2,11 +2,13 @@
 // @name         Exportador de Mis Enfermedades de e-Nabız
 // @namespace    http://tampermonkey.net/
 // @version      2024-12-13.32
-// @author       Jorge abarcamos.com
+// @author       TERMICO abarcamos.com
 // @description  Exportar datos de "My Diseases" desde e-Nabız. Cada línea de Pre-Diagnosis en una fila separada y nombre de archivo con fecha/hora.
 // @match        https://enabiz.gov.tr/HastaBilgileri/Hastalik
 // @grant        none
 // @require      https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js
+// @updateURL    https://raw.githubusercontent.com/TERMICO/e-nabiz-my-diseases-exporter/main/e-nabiz-my-diseases-exporter.user.js
+// @downloadURL  https://raw.githubusercontent.com/TERMICO/e-nabiz-my-diseases-exporter/main/e-nabiz-my-diseases-exporter.user.js
 /* global XLSX, YillaGoreHastalikGetir */
 // ==/UserScript==
 

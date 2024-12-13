@@ -15,7 +15,7 @@ Este script de Tampermonkey permite exportar los datos de la sección "Mis Enfer
 
 ## Instalación
 1. Instala [Tampermonkey](https://www.tampermonkey.net/) en tu navegador.
-2. Descarga el script desde la siguiente URL (GitHub Raw):https://raw.githubusercontent.com/TERMICO/e-nabiz-my-diseases-exporter/main/e-nabiz-my-diseases-exporter.user.js
+2. Descarga el script desde la siguiente URL (GitHub Raw): https://raw.githubusercontent.com/TERMICO/e-nabiz-my-diseases-exporter/main/e-nabiz-my-diseases-exporter.user.js
 3. El script se ejecutará automáticamente cuando accedas a la sección "Mis Enfermedades" de e-Nabız.
 
 ## Uso

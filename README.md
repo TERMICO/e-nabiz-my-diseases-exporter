@@ -1,32 +1,22 @@
 # e-Nabız My Diseases Exporter
 
-## Descripción
-Este script de Tampermonkey permite exportar los datos de la sección "Mis Enfermedades" desde la plataforma e-Nabız a un archivo Excel (`my_diseases.xlsx`), facilitando el análisis o almacenamiento de información personal de manera local.
+## 📋 **Descripción**
+Este script de Tampermonkey permite exportar los datos de la sección **"Mis Enfermedades"** desde la plataforma **e-Nabız** a un archivo Excel. Facilita el análisis o almacenamiento de la información de manera local y genera un archivo con la fecha y hora actuales en su nombre.
 
-## Características
-- Extrae información de la tabla de "Mis Enfermedades".
-- Incluye detalles adicionales mostrados en ventanas modales.
-- Genera un archivo Excel con los campos:
-  - Fecha
-  - Diagnóstico
-  - Clínica
-  - Médico
-  - Detalles del diagnóstico
+## ✨ **Características principales**
+- **Extrae la tabla completa de "Mis Enfermedades"** de la página de e-Nabız.
+- **Divide las líneas de "Pre-Diagnosis"** en filas separadas dentro del archivo Excel.
+- **Carga todos los resultados automáticamente**, haciendo clic en "Mostrar más" hasta que no queden más registros.
+- **Genera un archivo Excel automático** con los siguientes campos:
+  - **Fecha** (Date)
+  - **Diagnóstico** (Diagnosis)
+  - **Clínica** (Clinic)
+  - **Médico** (Physician)
+  - **Pre-Diagnóstico** (Pre-Diagnosis)
+- **Nombre del archivo dinámico**, que incluye la fecha y la hora actuales:  
+  `my_diseases_YYYYMMDD_HHMMSS.xlsx`  
+  *(donde YYYYMMDD es la fecha y HHMMSS la hora de creación).*
 
-## Instalación
-1. Instala [Tampermonkey](https://www.tampermonkey.net/) en tu navegador.
-2. Descarga el script desde la siguiente URL (GitHub Raw): https://raw.githubusercontent.com/TERMICO/e-nabiz-my-diseases-exporter/main/e-nabiz-my-diseases-exporter.user.js
-3. El script se ejecutará automáticamente cuando accedas a la sección "Mis Enfermedades" de e-Nabız.
-
-## Uso
-1. Ve a la página de "Mis Enfermedades" en e-Nabız:  
-`https://enabiz.gov.tr/HastaBilgileri/Hastalik`
-2. Haz clic en el botón "Exportar Datos" que aparecerá en la parte inferior derecha de la pantalla.
-3. Descarga el archivo Excel generado (`my_diseases.xlsx`).
-
-## Notas
-- Este script solo funciona en la sección "Mis Enfermedades" de e-Nabız.
-- Asegúrate de que las ventanas emergentes (modales) estén habilitadas en tu navegador para que el script funcione correctamente.
-
-## Licencia
-Este proyecto está licenciado bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+## 📥 **Instalación**
+1. **Instala Tampermonkey** en tu navegador desde [aquí](https://www.tampermonkey.net/).
+2. **Descarga el script** desde la siguiente URL (GitHub Raw):  
